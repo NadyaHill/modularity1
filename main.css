@@ -1,0 +1,151 @@
+ ADD YOUR STYLES HERE */
+h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+.table_css tr{
+	border-bottom: 1px solid #D3D3D3;
+}
+.table_css tr:last-child{
+	border-bottom: none;
+}
+
+.table_css td{
+	padding: 10px 90px 10px 10px;
+
+	/*border-spacing: 10px;*/
+	/*border-collapse: collapse;*/
+}
+
+.table_css td:first-child{
+	padding-right: 40px;
+}
+
+
+/*.stat-chart*/
+
+.number {
+font-size: 35px;
+font-weight: bold;
+padding: 10px 30px 0px 0px;
+border-top: 1px solid #D3D3D3;
+text-align: center;
+}
+
+
+.text {
+font-size: 12px;
+color: #C0C0C0;
+padding: 0px 30px 10px 0px;
+border-bottom: 1px solid #D3D3D3;
+text-align: center;
+}
+
+
+
+/*horizontal bar graph*/
+.bargraph {
+	width: 500px;
+	font-size: 13px;
+}
+
+/*look into this thing!!*/
+.bargraph div{
+	border: 2px, solid white;
+	margin: 0px;
+	background-color: #5392e9;
+	border-radius: 3px;
+	padding: 5px;
+	padding-color: white;
+	color: white;
+}
+
+.bargraph th {
+	text-align: right;
+	width: 75px;
+
+}
+
+
+/*lightbox!*/
+/*---------*/
+/*---------*/
+
+.greyspace {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #595959;
+	display: inline-block;
+	top: 0px;
+	left:0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 700px;
+}
+
+.whitespace {
+	display: inline-block;
+	background-color: white;
+	border-radius: 10px;
+	height: 300px;
+	width: 500px;
+	vertical-align: middle;
+	line-height: 300px;
+}
+
+.lightboxcontent {
+	display: inline-block;
+	background-color: white;
+	border-radius: 10px;
+	height: 90%;
+	width: 90%;
+	text-align: left;
+	vertical-align: middle;
+	line-height: initial;
+	font-family: Helvetica;
+}
+
+.button {
+	display: inline block;
+	position: relative;
+	border-radius: 5px;
+	height:33px;
+	width: 100px;
+	text-align: center;
+	background-color: #c95e69;
+	margin-left: 350px;
+	color: white;
+	/*vertical-align: middle;*/
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+/*media block*/
+
+
+/*.instruction-answer {
+	float:left;
+}*/
+
+.image {
+	display:inline-block;
+	position:static;
+	float:left;
+
+}
+
+
+
+.cupcake {
+	
+}
